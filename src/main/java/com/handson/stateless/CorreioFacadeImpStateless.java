@@ -1,16 +1,7 @@
 package com.handson.stateless;
 
-import java.net.MalformedURLException;
-import java.net.URL;
-
 import javax.ejb.Remote;
 import javax.ejb.Stateless;
-
-import org.tempuri.CResultado;
-import org.tempuri.CServico;
-import org.tempuri.CalcPrecoPrazoWS;
-
-import com.handson.entity.ServicoPreco;
 
 @Stateless
 @Remote(CorreioFacadeStateless.class) 

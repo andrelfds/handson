@@ -3,8 +3,6 @@ package com.handson.entity;
 import java.io.Serializable;
 import java.math.BigDecimal;
 
-import org.tempuri.CServico;
-
 public class ServicoPreco implements Serializable{
 	
 	private String empresa;
