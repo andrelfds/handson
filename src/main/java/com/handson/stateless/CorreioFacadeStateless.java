@@ -6,8 +6,8 @@ import com.handson.entity.ServicoPreco;
 
 public interface CorreioFacadeStateless extends Serializable {
 	
-	public abstract ServicoPreco retornaCalculaPreco(ServicoPreco preco);
+//	public abstract ServicoPreco retornaCalculaPreco(ServicoPreco preco);
 	
-	public abstract org.tempuri.CalcPrecoPrazoWSSoap getService();
+//	public abstract org.tempuri.CalcPrecoPrazoWSSoap getService();
 
 }
