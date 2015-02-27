@@ -19,7 +19,7 @@ import com.handson.infra.AppBD;
 
 public class AddressBD extends AppBD<Address, Long> {
 
-	@PersistenceContext
+	PersistenceContext
 	private EntityManager	em;
 	private List<Address>	address;
 	
